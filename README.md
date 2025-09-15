@@ -6,7 +6,10 @@ The amplitude is assigned based on a latitude threshold. The tilt is based on ap
 
 Key parameters that can be easily modified in the script include:
 
-PVU_THRESHOLD: What contour level to use (default = 2)
+PVU_THRESHOLD: What contour level to use (default = 2) 
+
 THRESHOLD: Regression slope threshold for unclassified classification (default = 0.15)
+
 MIN_CONTOUR_LENGTH: Minimum number of points in contour to classify be used in the calculation (defaukt = 30 points)
+
 AMPLIFICATION_LAT: Threshold latitude to classify more or less amplified (default = 62)
